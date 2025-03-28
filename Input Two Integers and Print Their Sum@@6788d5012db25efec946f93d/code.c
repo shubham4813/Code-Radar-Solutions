@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main() {
-    int a , b;
-
-    //printing the sum of the two integers
-    printf("sum: %d\n", a+b);
+    int a;
+    int b:
+    scanf("%d %d,&a,&b);
+    int s1=a+b
+    
+    printf("sum: %d", s1);
     return 0;
 }    
