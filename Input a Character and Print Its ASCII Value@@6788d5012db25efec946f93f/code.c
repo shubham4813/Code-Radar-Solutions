@@ -1,4 +1,4 @@
-3include<stodi.h>
+#include<stodi.h>
 int main(){
     char a;
     scanf("%c",&a);
