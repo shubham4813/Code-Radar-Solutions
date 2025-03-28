@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    chae x[100];
+    char x[100];
     int y;
     char z[100];
     scanf("%s",&x);
