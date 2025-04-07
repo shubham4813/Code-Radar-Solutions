@@ -2,7 +2,7 @@
 int main(){
     int x;
     if(x>=90){
-        ptrintf("A");
+        printf("A");
     }
     else if(x>=80 && x<90){
         printf("B");
