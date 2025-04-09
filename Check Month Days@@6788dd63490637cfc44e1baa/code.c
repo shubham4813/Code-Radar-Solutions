@@ -30,7 +30,7 @@ int main(){
         printf("30");
     }
     else if (x == 10){
-        printf("31";)
+        printf("31");
     }
     else if(x == 11){
         printf("30");
