@@ -1,19 +1,20 @@
 #include <stdio.h>
 int main(){
     int x;
+    scanf("%d",&num);
     if(x>90){
-        printf("A");
+        printf("A\n");
     }
-    else if(x>80 && x<90){
+    else if(num x>80 && num x<90){
         printf("B");
     }
-    else if(x>70 && x<80){
+    else if(num x>70 && num x<80){
         printf("C");
     }
-    else if(x>60 && x<70){
+    else if(num x>60 && num x<70){
         printf("D");
     }
-    else{
+    else if(num < 60){
         printf("F");
     }
     return 0;
