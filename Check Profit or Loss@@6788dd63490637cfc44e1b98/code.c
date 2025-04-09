@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main(){
-    int x,y;
-    scanf("%d%d,&x,&y");
-    if(y>x){
-        printf("Profit");
+    int a,b;
+    scanf("%d%d,&a,&b");
+    if(a<b){
+        printf("Profit\n");
     }
-    else if(x>y){
-        printf("Loss");
+    else if(a>b){
+        printf("Loss\n");
     }
     else{
-        printf("No Profit No Loss");
+        printf("No Profit No Loss\n");
     }
+    return 0;
 }
